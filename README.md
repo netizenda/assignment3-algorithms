@@ -36,7 +36,7 @@
 
 - **Closest Pair of Points**  
   Recurrence: `T(n) = 2T(n/2) + Θ(n)`  
-  Same as MergeSort → `Θ(n log n)`  
+  Same as MergeSort - `Θ(n log n)`  
   Recursion depth: `O(log n)`.
 
 ---
@@ -44,11 +44,9 @@
 ## Plots
 
 - Expected results:
-    - MergeSort and Closest Pair → scale like `n log n`.
-    - QuickSort → scales like `n log n` on average.
-    - Deterministic Select → scales linearly.
-
-*(You can measure runtime with `System.nanoTime()` in Java, export data to CSV, then plot in Excel/Python.)*
+    - MergeSort and Closest Pair - scale like `n log n`.
+    - QuickSort - scales like `n log n` on average.
+    - Deterministic Select - scales linearly.
 
 ---
 
